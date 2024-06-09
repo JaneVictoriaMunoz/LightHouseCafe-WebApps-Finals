@@ -1,0 +1,132 @@
+body {
+    background-image: url(Image/menulandpage2.jpg);
+    background-size: auto;
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.product-card {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #6F4E37;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #FED8B1;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+    max-height: 150px;
+    margin-bottom: 10px;
+}
+
+.product-card h2 {
+    font-size: 1.5rem;
+}
+
+.btn-custom {
+    width: 100%;
+}
+
+.btn-Add {
+    background-color: #6F4E37;
+    color: #FED8B1; 
+}
+
+.table-custom {
+    margin-top: 20px;
+    background-color: #FED8B1;
+}
+
+.table-custom th {
+    background-color: #6F4E37;
+    color: #FED8B1;
+}
+
+.table-custom td {
+    background-color: #FED8B1;
+}
+
+.text-center {
+    color: #FED8B1;
+}
+
+/* Navigation Bar Styles */
+header {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1365px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: transparent; /* Set background color to transparent */
+    height: 105px;
+    font-family: 'Merriweather', serif;
+    font-size: 1.9rem;
+}
+
+.logo {
+    height: 180px;
+    width: auto;
+    top: 0px;
+    left: 0px;
+    position: relative;
+}
+
+.nav-bar {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    left: 200px;
+    margin-top: 40px;
+    white-space: nowrap;
+}
+
+.nav-bar li {
+    display: inline;
+    margin-right: 30px;
+}
+
+.nav-bar a {
+    color: #3B2313;
+    text-decoration: none;
+    font-size: 70%;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.nav-bar a:hover {
+    color: #fff;
+    border-bottom: 2px solid #E4B73D;
+    padding: 10px 0;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 40px;
+    left: 1240px;
+}
+
+.cart-icon {
+    color: #3B2313;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: flex;
+}
+
+.cart-icon img {
+    height: 35px;
+    width: auto;
+
+}
+
+.cart-icon:hover {
+    color: #fff;
+}
